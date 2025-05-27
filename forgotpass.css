@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #31085e;
+    width: 100%;
+}
+
+.nav img{
+    width: 50px;
+}
+
+.nav label{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 25px;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 7px;
+    transform: 2s;
+}
+
+.line{
+    color: #FFF;
+}
+
+.col {
+    text-decoration: underline  3px solid #FFF ;
+}
+
+.nav button{
+   width: 100px;
+   height: 40px;
+   font-size: 15px;
+   font-weight: 600;
+   margin-left: 10px;
+   color: #31085e;
+}
+
+.nav a:hover{
+    text-decoration: underline  3px solid #FFF ;
+    transition:  scale(1.2);
+}
+
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    .container button {
+      margin-top: 1rem;
+      padding: 0.7rem;
+      font-size: 1rem;
+      background-color: #31085e;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: (#6A0DAD);
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+ .map {
+      width: 100%;
+      height: 300px;
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+    img{
+      width: 50px;
+      justify-content: space-between;
+    }

@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #31085e;
+    width: 100%;
+}
+
+.nav img{
+    width: 50px;
+}
+
+.nav label{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 25px;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 7px;
+    transform: 2s;
+}
+
+.line{
+    color: #FFF;
+}
+
+.col {
+    text-decoration: underline  3px solid #FFF ;
+}
+
+.nav button{
+   width: 100px;
+   height: 40px;
+   font-size: 15px;
+   font-weight: 600;
+   margin-left: 10px;
+   color: #31085e;
+}
+
+.nav a:hover{
+    text-decoration: underline  3px solid #FFF ;
+    transition:  scale(1.2);
+}
+
+.ban{
+   
+    background-image: url(img/academy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    animation: change 15s infinite ease-in-out;
+}
+
+.ban-info{
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    background: rgba(0, 0, 0, 0.689);
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.ban-info .ag{
+    color: #FFF;
+    font-weight: 600;
+    font-size: 25px;
+}
+.ads{
+    color: #31085e;
+    -webkit-text-stroke: 1px #FFF;
+    font-weight: 600;
+    font-size: 60px;
+    padding-top: 10px;
+}
+
+.h3{
+    color: #FFF;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.ban-lor span{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.ban-lor{
+    margin-top: 10px;
+}
+
+.ban-btn{
+    margin-top: 20px;
+}
+
+.ban-btn button{
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.b1{
+    background: #31085e;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+}
+
+.b2{
+    background: transparent;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+.ban-btn button:hover{
+    background: #FFF;
+    color: #31085e;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(img/academy.webp);
+    }
+    20%
+    {
+        background-image: url(img/childrens-religious-program-picture-id175410336.jpg);
+    }
+    40%
+    {
+        background-image: url(img/excited-school-girls-during-chemistry-experiment.webp);
+    }
+    60%
+    {
+        background-image: url(img/school-desks-in-a-classroom.webp);
+    }
+    80%
+    {
+        background-image: url(img/group-of-middle-school-students-work-on-robotics-project.webp);
+    }
+    0%
+    {
+        background-image: url(img/interior-elementary-school_69593-5779.webp);
+    }
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.cor{
+    display: flex;
+    justify-content: space-between;
+    background: #E3E3E3;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+
+}
+
+figure img{
+    width: 350px;
+    border-radius: 50%;
+    
+}
+
+ figcaption{
+    padding-top: 10px;
+}
+
+figure h3{
+    color: #31085e;
+}
+
+.goal{
+    margin-top: 40px;
+    background: #E3E3E3;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    flex-direction: column;
+    margin-left: 15%;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.goal-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.goal-info img{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.goal label{
+    font-size: 40px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 2px #31085e;
+}
+
+.goal-btn button{
+    margin-top: 40px;
+    background: #31085e;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+     width: 120px;
+    height: 50px;
+}
+
+footer{
+    background: #31085e;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+
