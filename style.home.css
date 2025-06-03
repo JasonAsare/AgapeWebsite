@@ -59,7 +59,7 @@ nav a {
 
 .ban{
    
-    background-image: url(img/academy.webp);
+    background-image: url(gallery images / );
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -136,7 +136,7 @@ nav a {
 @keyframes change{
     0%
     {
-        background-image: url(img/academy.webp);
+        background-image: url(AgapeWebsite\gallery images/);
     }
     20%
     {

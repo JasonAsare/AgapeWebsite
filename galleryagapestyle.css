@@ -40,6 +40,8 @@ nav a {
     transform: 2s;
 }
 
+
+
 .line{
     color: #FFF;
 }
@@ -65,7 +67,7 @@ nav a {
     cursor:crosshair;
 }
 
-.gall {
+.gall , .gal2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -73,7 +75,7 @@ nav a {
     gap: 20px;
 }
 
-.gallleft, .gallright, .gallmid {
+.gallleft, .gallright, .gallmid , .gr{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -88,17 +90,32 @@ nav a {
     max-width: 320px;
 }
 
+.card img{
+    width: 350px;
+    height: 350px;
+}
 .card:hover {
     transform: scale(1.1);
 } 
-.gall img{
-    max-width:350px;
-    max-height: 350px;
-}
+
 img{
-    max-width: 350px;
-    max-height: 350px;
+    width: 350px;
+    height: auto;
+    
 }
 
-
+footer p{
+    font-size: 20px;
+    text-align: center;
+}
+footer {
+    padding: 25px;
+    margin-top: 20%;
+    background-color: #31085e;
+    justify-content: space-around;
+    color: #FFF;
+}
+.end {
+    margin-left: 60%;
+}
 
